@@ -1,0 +1,24 @@
+<html ng-app="mam">
+<script src="./bower_components/angular/angular.min.js"></script>
+<script src="./feedhenry.js"></script>
+<script src="./cordova.js"></script>
+<script src="./demo_mam.js"></script>
+<script src="./main.js"></script>
+<script src="./mam/mam.js"></script>
+
+<body>
+  <div ng-controller="main">
+    <h1>Hello MAM</h1>
+    <h3>Register Device</h3>
+    <div>
+      Device UUID:
+      <input ng-model="device.uuid"/>
+    </div>
+    <div>
+      Device Name:
+      <input ng-model="device.model"/>
+    </div>
+    <button ng-click="register()">Cloud Call</button>
+  </div>
+</body>
+</html>

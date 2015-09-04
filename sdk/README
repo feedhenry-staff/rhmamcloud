@@ -1,0 +1,9 @@
+# MAM client
+Client sdk for mam functionalities based on $fh
+
+# Requirement
+
+* FeedHenry SDK version >=1.5.0
+* Cordova version >= 3.0.0
+* Cordova File Plugin >= 1.2.0 or Html5 FileSystem
+* localStorage
